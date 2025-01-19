@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About IntelliOS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .about-container {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1); /* Slightly transparent black background for effect */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-icons a {
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #00bcd4;
+}
+    .social-links a {
+        margin: 0 15px; /* Adds 15px margin on the left and right of each icon */
+    }
+
+    .about-container {
+    opacity: 0;
+    transform: scale(0.5);
+    animation: enlargeBox 2s forwards ease-in-out;
+}
+
+@keyframes enlargeBox {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="about-container">
+        <h1>About IntelliOS</h1>
+        <p>
+            Welcome to Intellios! Our mission is to make the concept of AI-powered operating systems accessible and understandable to everyone. An AI-powered OS goes beyond traditional systems by integrating artificial intelligence to enhance the way your device works. By learning from your behavior and preferences, these operating systems become smarter, more efficient, and more responsive over time.
+        </p>
+      
+    </div>
+    <footer id="contact">
+        <p style="color: white;">&copy; 2025 IntelliOS. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="mailto:ardrasnair2028@mca.ajce.in" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/ardra-s-nair-175840278/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Ardra1872" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
